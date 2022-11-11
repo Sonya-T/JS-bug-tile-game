@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="JS-game.css" />
+    <link
+      rel="icon"
+      href="bug-tiles\JS-game-caterpillar1.png"
+      type="image/x-icon"
+    />
+    <title>Tile match game</title>
+  </head>
+
+  <body>
+    <!-- GAME TITLE & INSTRUCTIONS -->
+    <header>
+      <h1>Tile match game</h1>
+      <h3>Click a tile to flip it, and try to find a match!</h3>
+      <div id="score-and-reload">
+        <!-- SCORE -->
+        <h3>
+          <span id="result">Score: <span id="score"></span></span>
+        </h3>
+        <!-- RELOAD -->
+        <a
+          href="JS-game-v1.html"
+          target="_self"
+          title="reload"
+          id="reload-button"
+          ><button><h4>Reload</h4></button></a
+        >
+      </div>
+    </header>
+    <!-- TILE CONTAINER -->
+    <div id="grid"></div>
+    <br /><br />
+    <!-- FOOTER & CREDITS -->
+    <hr />
+    <footer class="footer">
+      <div class="illustration-sources">
+        <span>
+          Illustrations by
+          <a
+            href="https://icons8.com/illustrations/author/ZzX8QJV19tuE"
+            target="_blank"
+            >Maria Letta</a
+          >
+          from
+          <a href="https://icons8.com/illustrations" target="_blank"
+            >Ouch!</a
+          ></span
+        >
+        <span
+          ><a
+            href="https://icons8.com/icon/7u0jHipbmA4S/caterpillar"
+            target="_blank"
+            >Caterpillar</a
+          >
+          icon by <a href="https://icons8.com" target="_blank">Icons8</a></span
+        >
+      </div>
+      <br />
+      <div id="align-center">
+        <p class="courier-font">Coded by Sonya Troy 2022 ©</p>
+      </div>
+    </footer>
+
+    <!-- JavaScript  -->
+    <script src="JS-game.js"></script>
+  </body>
+</html>
