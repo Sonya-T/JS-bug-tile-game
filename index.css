@@ -15,8 +15,24 @@ h6,
 p,
 a,
 body,
-button {
+button,
+div,
+span {
   font-family: "Mali", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    #ffcab0 12%,
+    #ffe9cc 22%,
+    #fffccc 50%,
+    #ffe9cc 78%,
+    #ffccdd 90%,
+    #ffccf2 100%
+  );
+}
+.smallest-font-size {
+  font-size: 18px;
 }
 button {
   cursor: pointer;
@@ -44,6 +60,7 @@ button:active {
 .courier-font {
   font-family: "Courier New", Courier, monospace;
   margin: 0;
+  font-size: 19px;
 }
 #score-and-reload {
   width: 840px;
